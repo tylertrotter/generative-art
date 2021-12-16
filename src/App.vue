@@ -1,26 +1,35 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <g-design />
+  <g-design />
+  <g-design />
+  <g-design />
+  <g-design />
+  <g-design />
+  <g-design />
+  <g-design />
+  <g-design />
+  <g-design />
+  <g-design />
+  <g-design />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import GDesign from './components/Design.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    GDesign
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+svg {
+  width: 25%;
+  margin: 3%;
+}
+body {
+  background: #222;
 }
 </style>
